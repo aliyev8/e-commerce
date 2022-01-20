@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<style>
+  .container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+
+  .scon {
+
+
+    width: 200px;
+    height: 300px;
+  }
+</style>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300&display=swap"
+    rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+
+  <title>e-commerce</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div id="vs" class="con">
+
+
+    <div id="left">
+
+      <div id="top">
+
+        <div><span>
+            <i id="lm" class="gg-chevron-left-o"></i></span></div>
+      </div>
+
+      <div id="dashMenu">
+        <ul>
+          <li class="list mobile"><i class="fas fa-mobile hov"></i><span class="title">Mobile</span>
+          </li>
+          <li class="list game"><i class="fas fa-gamepad hov"></i><span class="title">Game </span></li>
+          <li class="list other active"><i class="fas fa-ethernet hov"></i><span class="title">Other</span></li>
+        </ul>
+
+
+      </div>
+
+
+
+    </div>
+
+    <div id="right">
+      <div id="nav">
+        <div class="search"> <input id="search" class="px-2 py-2" type="text" placeholder=" &#xf002   enter keywords">
+          <label for="search"></label>
+        </div>
+
+        <div class="searchDiv">
+          <ul class="searchContent">
+
+
+          </ul>
+        </div>
+        <div class="dark">
+          <div class="darkRound">
+            <i class="fas fa-moon"></i> <i class="fas fa-sun"></i>
+            <div class="darkAnd"></div>
+          </div>
+
+        </div>
+        <div class="lang"> <span><button id="btn-cart" class="btn" type="button" data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fas fa-shopping-cart">
+              </i><span class="quantitiy mx-1"></span></button>
+
+        </div>
+      </div>
+      <div class="offcanvas offcanvas-end shop" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">Shoping cart</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <!-- shoping cart -->
+
+        <ul id="cartll" class="cart-list">
+
+
+
+
+
+        </ul>
+
+
+        <!-- shoping cart end -->
+        <div id="total">
+
+          <span class="rr">Total: </span><span class="tot"></span>
+
+
+        </div>
+        <button type="button" class="clear btn btn-dark">Clear</button>
+      </div>
+
+      <div id="product">
+        <div class="productList px-2">
+          <!-- <div class="box">
+            <img src="img/kiboTEK_miband5_003-1_adobespark-1-min 1.png" alt="">
+            <h2 class="name">Product name</h2>
+
+            <a href="#" class="buy"><i class="fas fa-cart-plus"></i></a>
+
+            <p class="new">$ 440</p>
+            <div class="boxBottom">
+
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <th scope="row">.</th>
+                    <td>Brand</td>
+                    <td>Xiaomi</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">.</th>
+                    <td>Production year</td>
+                    <td>Otto</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">.</th>
+                    <td>Operation system</td>
+                    <td>Android,IOS</td>
+                  </tr>
+
+                </tbody>
+              </table>
+
+            </div>
+          </div> -->
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+  <script src="product.js"></script>
+  <script src="ui.js"></script>
+  <script src="storage.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

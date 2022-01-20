@@ -1,0 +1,34 @@
+[
+
+    {
+
+        "id": "1",
+        "name": "Mi Band",
+        "year": 2020,
+        "pricing": 250,
+        "brand": "Xiaomi",
+        "os": "Android, IOS",
+        "img": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_88539226/fee_786_587_png"
+
+    }, {
+        "id": "2",
+        "name": "I Watch",
+        "year": 2021,
+        "pricing": 450,
+        "brand": "Apple",
+        "os": "OS",
+        "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MKUN3_VW_PF+watch-44-alum-spacegray-nc-se_VW_PF_WF_SI?wid=2000&hei=2000&fmt=png-alpha&.v=1632171064000,1599457201000"
+
+    }, {
+        "id": "3",
+        "name": "Watch Active 2",
+        "year": 2020,
+        "pricing": 420,
+        "brand": "Samsung",
+        "os": "Android",
+        "img": "https://images.samsung.com/is/image/samsung/latin-en-galaxy-watch-active-r500-sm-r500nzgattt-frontgreen-153876018?$720_576_PNG$"
+
+    }
+
+
+]
