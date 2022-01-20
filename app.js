@@ -144,12 +144,10 @@ searchBox.addEventListener('keyup', (e) => {
 
 
 
-eventListeners();
-
-function eventListeners() {
 
 
-  closeMenu.addEventListener("click", cl)
+
+closeMenu.addEventListener("click", cl)
 
 
 
@@ -158,7 +156,7 @@ function eventListeners() {
 
 
 
-}
+
 
 buttons.forEach(button => {
   button.addEventListener('click', function () {
